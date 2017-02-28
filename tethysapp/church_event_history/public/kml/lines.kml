@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="lines">
+  <name>lines</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>lines</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>0</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -91.39223800000001,40.540373,0 -91.391347,40.540091,0 -91.139341,40.415226,0 -91.384354,40.550478,0 -91.383759,40.542991,0 -94.42064600000001,39.248516,0 -94.130841,39.671946,0 -81.362264,41.625292,0 -94.426761,39.089855,0 -81.361509,41.629218,0 -76.869631,42.865919,0 -77.230684,43.063922,0 -80.12406900000001,40.801241,0 -77.22032299999999,42.994719,0 -77.245582,43.039551,0 -77.241376,43.040123,0 -72.472461,43.823985,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Style id="LineStyle00">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ffff13</color>
+      <width>2.000000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00000000</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>

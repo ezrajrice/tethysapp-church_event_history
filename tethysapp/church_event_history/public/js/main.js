@@ -15,7 +15,7 @@ var raster = new ol.layer.Tile({
 var points = new ol.layer.Vector({
     source: new ol.source.Vector({
         projection: projection,
-        url: 'data/kml/points.kml',
+        url: '/static/church_event_history/kml/points.kml',
         format: new ol.format.KML()
     })
 });
@@ -23,7 +23,7 @@ var points = new ol.layer.Vector({
 var lines = new ol.layer.Vector({
     source: new ol.source.Vector({
         projection: projection,
-        url: '../../data/kml/lines.kml',
+        url: '/static/church_event_history/kml/lines.kml',
         format: new ol.format.KML()
     })
 });
@@ -31,7 +31,7 @@ var lines = new ol.layer.Vector({
 var poly = new ol.layer.Vector({
     source: new ol.source.Vector({
         projection: projection,
-        url: '../../data/kml/poly.kml',
+        url: '/static/church_event_history/kml/poly.kml',
         format: new ol.format.KML()
     })
 });
@@ -45,7 +45,7 @@ var map = new ol.Map({
 
     //Establish the view area.  Reproject Bing maps to Web Mercator
     view: new ol.View({
-        center: ol.proj.transform([-94.3502343, 46.829781], 'EPSG:4326', 'EPSG:3857'),
-        zoom: 13
+        center: ol.proj.transform([-74.3502343, 42.829781], 'EPSG:4326', 'EPSG:3857'),
+        zoom: 5
     })
 });

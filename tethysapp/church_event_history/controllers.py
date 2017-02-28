@@ -10,17 +10,7 @@ def home(request):
     """
     Controller for the app home page.
     """
-    # Read KML files as strings
-    with open(dir_path + '/data/kml/points.kml') as points_file:
-        pointsKML = points_file.read()
-    with open(dir_path + '/data/kml/lines.kml') as lines_file:
-        linesKML = lines_file.read()
-    with open(dir_path + '/data/kml/poly.kml') as poly_file:
-        polyKML = poly_file.read()
 
-    context = {'pointsKML': pointsKML,
-               'linesKML': linesKML,
-               'polyKML': polyKML
-               }
+    context = {}
 
     return render(request, 'church_event_history/home.html', context)
