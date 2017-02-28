@@ -13,23 +13,26 @@ var raster = new ol.layer.Tile({
 
 //create another layer from a kml file
 var points = new ol.layer.Vector({
-    source: new ol.source.KML({
+    source: new ol.source.Vector({
         projection: projection,
-        url: '../../data/kml/points.kml'
+        url: 'data/kml/points.kml',
+        format: new ol.format.KML()
     })
 });
 
 var lines = new ol.layer.Vector({
-    source: new ol.source.KML({
+    source: new ol.source.Vector({
         projection: projection,
-        url: '../../data/kml/lines.kml'
+        url: '../../data/kml/lines.kml',
+        format: new ol.format.KML()
     })
 });
 
 var poly = new ol.layer.Vector({
-    source: new ol.source.KML({
+    source: new ol.source.Vector({
         projection: projection,
-        url: '../../data/kml/poly.kml'
+        url: '../../data/kml/poly.kml',
+        format: new ol.format.KML()
     })
 });
 

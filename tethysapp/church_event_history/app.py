@@ -6,7 +6,7 @@ class HurchEventHistory(TethysAppBase):
     Tethys app class for hurch Event History.
     """
 
-    name = 'hurch Event History'
+    name = 'Church Event History'
     index = 'church_event_history:home'
     icon = 'church_event_history/images/icon.gif'
     package = 'church_event_history'
