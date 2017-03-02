@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c4bdc7-421f-4261-8cd1-75eae8e8b190" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/images/points.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/data/kml/lines.kml" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/lines.kml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/data/kml/points.kml" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/points.kml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/data/kml/poly.kml" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tethysapp-church_event_history.iml" afterPath="$PROJECT_DIR$/.idea/tethysapp-church_event_history.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/controllers.py" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/controllers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/lines.kml" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/lines.kml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/points.kml" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/points.kml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html" />
     </list>
     <ignored path="tethysapp-church_event_history.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,18 +31,18 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.6928962">
+              <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -66,16 +64,16 @@
         <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/kml/points.kml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1620" column="5" selection-start-line="1620" selection-start-column="5" selection-end-line="1620" selection-end-column="5" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poly.kml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="poly.kml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62255466">
+            <state vertical-scroll-proportion="0.0">
               <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
               <folding />
             </state>
@@ -86,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/kml/lines.kml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -110,21 +108,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/data/kml/points.kml" />
-        <option value="$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/controllers.py" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/points.kml" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/lines.kml" />
+        <option value="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html" />
+        <option value="$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="353" />
-    <option name="y" value="95" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -469,6 +467,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="90c4bdc7-421f-4261-8cd1-75eae8e8b190" name="Default" comment="" />
@@ -480,30 +481,43 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="353" y="95" width="1400" height="1000" extended-state="0" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1855" height="1099" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282498" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24672489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Got points and poly KML files showing on map." />
+    <option name="LAST_COMMIT_MESSAGE" value="Got points and poly KML files showing on map." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -513,30 +527,9 @@
     <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/images/points.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js">
@@ -565,18 +558,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/kml/lines.kml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/images/points.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62255466">
+        <state vertical-scroll-proportion="0.0">
           <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/kml/lines.kml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/kml/points.kml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6928962">
+          <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
           <folding />
         </state>
       </provider>

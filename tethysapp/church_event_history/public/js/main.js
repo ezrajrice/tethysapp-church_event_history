@@ -17,7 +17,28 @@ var points = new ol.layer.Vector({
         projection: projection,
         url: '/static/church_event_history/kml/points.kml',
         format: new ol.format.KML()
-    })
+    }),
+//    eventListeners:{
+//		'featureselected': function(evt){
+//			var feature = evt.feature;
+//			var popup = new ol.Popup.FramedCloud("popup",
+//				ol.LonLat.fromString(feature.geometry.toShortString()) ,
+//				null,
+//				"<div style='font-size:.8em'>Feature: " + feature.id + "<br>Foo: " + feature.attributes.foo+"</div>",
+//				null,
+//				true
+//			);
+//			feature.popup = popup;
+//			map.addPopup(popup);
+//		},
+//		'featureunselected':function(evt){
+//		    console.log('feature unselected');
+//			var feature = evt.feature;
+//			map.removePopup(feature.popup);
+//			feature.popup.destroy();
+//			feature.popup = null;
+//		}
+//	}
 });
 
 var lines = new ol.layer.Vector({
@@ -49,3 +70,69 @@ var map = new ol.Map({
         zoom: 5
     })
 });
+
+var element = document.getElementById('popup');
+
+var popup = new ol.Overlay({
+    element: element,
+    positioning: 'bottom-center',
+    stopEvent: false,
+    offset: [0, -25]
+});
+map.addOverlay(popup);
+
+// display popup on click
+map.on('click', function(evt) {
+    var feature = map.forEachFeatureAtPixel(evt.pixel,
+        function(feature) {
+            return feature;
+        });
+    console.log(feature.get('name'));
+    if (feature) {
+        var coordinates = feature.getGeometry().getCoordinates();
+        popup.setPosition(coordinates);
+        $(element).popover({
+            'placement': 'top',
+            'html': true,
+            'content': feature.get('name')
+        });
+        $(element).popover('show');
+    } else {
+        $(element).popover('destroy');
+    }
+});
+
+// change mouse cursor when over marker
+map.on('pointermove', function(e) {
+    if (e.dragging) {
+      $(element).popover('destroy');
+      return;
+    }
+//    var pixel = map.getEventPixel(e.originalEvent);
+//    var hit = map.hasFeatureAtPixel(pixel);
+//    map.getTarget().style.cursor = hit ? 'pointer' : '';
+});
+
+// create the layer with listeners to create and destroy popups
+//var vector = new ol.layer.Vector("Points", {
+//	eventListeners:{
+//		'featureselected': function(evt){
+//			var feature = evt.feature;
+//			var popup = new ol.popup.FramedCloud("popup",
+//				ol.LonLat.fromString(feature.geometry.toShortString()) ,
+//				null,
+//				"<div style='font-size:.8em'>Feature: " + feature.id + "<br>Foo: " + feature.attributes.foo+"</div>",
+//				null,
+//				true
+//			);
+//			feature.popup = popup;
+//			map.addPopup(popup);
+//		},
+//		'featureunselected':function(evt){
+//			var feature = evt.feature;
+//			map.removePopup(feature.popup);
+//			feature.popup.destroy();
+//			feature.popup = null;
+//		}
+//	}
+//});
