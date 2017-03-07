@@ -62,7 +62,7 @@ var map = new ol.Map({
     target: 'map',
 
     //set up the layers that will be loaded in the map
-    layers: [raster, points, lines, poly],
+    layers: [raster, poly, lines, points],
 
     //Establish the view area.  Reproject Bing maps to Web Mercator
     view: new ol.View({
@@ -71,10 +71,11 @@ var map = new ol.Map({
     })
 });
 
-var element = document.getElementById('popup');
+var popup_container = document.getElementById('popup');
+var popup_content = document.getElementById('popup-content');
 
 var popup = new ol.Overlay({
-    element: element,
+    element: popup_container,
     positioning: 'bottom-center',
     stopEvent: false,
     offset: [0, -25]
@@ -83,20 +84,23 @@ map.addOverlay(popup);
 
 // display popup on click
 map.on('click', function(evt) {
+//    var element = popup.getElement();
     var feature = map.forEachFeatureAtPixel(evt.pixel,
-        function(feature) {
+        function(feature, layer) {
             return feature;
         });
-    console.log(feature.get('name'));
+
     if (feature) {
         var coordinates = feature.getGeometry().getCoordinates();
+//        $(element).popover('destroy');
         popup.setPosition(coordinates);
-        $(element).popover({
-            'placement': 'top',
-            'html': true,
-            'content': feature.get('name')
-        });
-        $(element).popover('show');
+        popup_content.innerHTML = feature.get('name');
+//        $(element).popover({
+//            'placement': 'top',
+//            'html': true,
+//            'content': feature.get('name')
+//        });
+        $(popup_container).popover('show');
     } else {
         $(element).popover('destroy');
     }
