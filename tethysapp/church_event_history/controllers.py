@@ -10,7 +10,7 @@ def home(request):
     """
     Controller for the app home page.
     """
-
+    # use dropdown gizmo
     context = {}
 
     return render(request, 'church_event_history/home.html', context)
