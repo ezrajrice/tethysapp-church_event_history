@@ -17,28 +17,7 @@ var points = new ol.layer.Vector({
         projection: projection,
         url: '/static/church_event_history/kml/points.kml',
         format: new ol.format.KML()
-    }),
-//    eventListeners:{
-//		'featureselected': function(evt){
-//			var feature = evt.feature;
-//			var popup = new ol.Popup.FramedCloud("popup",
-//				ol.LonLat.fromString(feature.geometry.toShortString()) ,
-//				null,
-//				"<div style='font-size:.8em'>Feature: " + feature.id + "<br>Foo: " + feature.attributes.foo+"</div>",
-//				null,
-//				true
-//			);
-//			feature.popup = popup;
-//			map.addPopup(popup);
-//		},
-//		'featureunselected':function(evt){
-//		    console.log('feature unselected');
-//			var feature = evt.feature;
-//			map.removePopup(feature.popup);
-//			feature.popup.destroy();
-//			feature.popup = null;
-//		}
-//	}
+    })
 });
 
 var lines = new ol.layer.Vector({
@@ -71,11 +50,14 @@ var map = new ol.Map({
     })
 });
 
-var popup_container = document.getElementById('popup');
-var popup_content = document.getElementById('popup-content');
+var popup_container = $('#popup');
+var popup_content = $('#popup-content');
+
+var info_container = $('#feature-info');
+var info_content = $('#feature-info-content');
 
 var popup = new ol.Overlay({
-    element: popup_container,
+    element: document.getElementById('popup'),
     positioning: 'bottom-center',
     stopEvent: false,
     offset: [0, -25]
@@ -84,7 +66,6 @@ map.addOverlay(popup);
 
 // display popup on click
 map.on('click', function(evt) {
-//    var element = popup.getElement();
     var feature = map.forEachFeatureAtPixel(evt.pixel,
         function(feature, layer) {
             return feature;
@@ -92,51 +73,33 @@ map.on('click', function(evt) {
 
     if (feature) {
         var coordinates = feature.getGeometry().getCoordinates();
-//        $(element).popover('destroy');
         popup.setPosition(coordinates);
-        popup_content.innerHTML = feature.get('name');
-//        $(element).popover({
-//            'placement': 'top',
-//            'html': true,
-//            'content': feature.get('name')
-//        });
-        $(popup_container).popover('show');
+
+        // Construct the innerHTML from the feature's metadata
+        var feature_id = feature.a;
+        var site_name = feature.get('site');
+        var description = feature.get('info');
+        var link = '<a href="' + feature.get('link') + '">Learn more</a>';
+        var image_ref = '/static/church_event_history/images/' + feature_id + '.png';
+        var popup_meta = site_name + '<br>' + link;
+        var feature_meta = site_name + '<br><img src="' + image_ref + '"><br>' + description + '<br>' + link;
+
+
+
+        info_content.html(feature_meta);
+        popup_content.html(popup_meta);
+        popup_content.addClass('show');
     } else {
-        $(element).popover('destroy');
+        info_content.html('');
+        popup_content.toggleClass('show');
     }
 });
 
 // change mouse cursor when over marker
 map.on('pointermove', function(e) {
     if (e.dragging) {
-      $(element).popover('destroy');
-      return;
+        info_content.html('');
+        popup_content.removeClass('show');
+        return;
     }
-//    var pixel = map.getEventPixel(e.originalEvent);
-//    var hit = map.hasFeatureAtPixel(pixel);
-//    map.getTarget().style.cursor = hit ? 'pointer' : '';
 });
-
-// create the layer with listeners to create and destroy popups
-//var vector = new ol.layer.Vector("Points", {
-//	eventListeners:{
-//		'featureselected': function(evt){
-//			var feature = evt.feature;
-//			var popup = new ol.popup.FramedCloud("popup",
-//				ol.LonLat.fromString(feature.geometry.toShortString()) ,
-//				null,
-//				"<div style='font-size:.8em'>Feature: " + feature.id + "<br>Foo: " + feature.attributes.foo+"</div>",
-//				null,
-//				true
-//			);
-//			feature.popup = popup;
-//			map.addPopup(popup);
-//		},
-//		'featureunselected':function(evt){
-//			var feature = evt.feature;
-//			map.removePopup(feature.popup);
-//			feature.popup.destroy();
-//			feature.popup = null;
-//		}
-//	}
-//});
