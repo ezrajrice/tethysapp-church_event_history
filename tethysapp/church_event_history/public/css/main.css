@@ -4,6 +4,21 @@
     padding: 0;
 }
 
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+#feature-info-content {
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#feature-info-content img {
+    width: 100%;
+}
+
 /* Popup container */
 #popup {
     position: relative;

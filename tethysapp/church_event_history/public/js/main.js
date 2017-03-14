@@ -91,7 +91,7 @@ map.on('click', function(evt) {
         popup_content.addClass('show');
     } else {
         info_content.html('');
-        popup_content.toggleClass('show');
+        popup_content.removeClass('show');
     }
 });
 
