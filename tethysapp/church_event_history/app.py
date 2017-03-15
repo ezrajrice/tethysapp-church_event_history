@@ -26,6 +26,12 @@ class HurchEventHistory(TethysAppBase):
         url_maps = (UrlMap(name='home',
                            url='church-event-history',
                            controller='church_event_history.controllers.home'),
+                    UrlMap(name='map',
+                           url='church-event-history/map',
+                           controller='church_event_history.controllers.map'),
+                    UrlMap(name='help',
+                           url='church-event-history/help',
+                           controller='church_event_history.controllers.help'),
         )
 
         return url_maps

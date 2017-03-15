@@ -1,8 +1,17 @@
 {% extends "church_event_history/base.html" %}
 {% load staticfiles %}
+{% load tethys_gizmos %}
 
 {% block app_navigation_items %}
-  <li class="active"><a href="">Home</a></li>
+  <li><a href="{% url 'church_event_history:home' %}">Home</a></li>
+  <li class="active"><a href="{% url 'church_event_history:map' %}">Map</a></li>
+  <li><a href="{% url 'church_event_history:help' %}">Help Files</a></li>
+  <br>
+  {% gizmo select_input select_input %}
+  <br>
+  <div id="feature-info">
+      <div id="feature-info-content"></div>
+  </div>
 {% endblock %}
 
 {% block app_content %}

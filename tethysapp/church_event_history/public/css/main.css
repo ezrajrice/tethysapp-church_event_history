@@ -1,7 +1,62 @@
-#inner-app-content {
-    height: 100%;
-    margin: 0;
+/* override tethys core styles */
+#app-header .tethys-app-header {
+    height: 60px;
+}
+
+#app-header .tethys-app-header .toggle-nav {
+    margin-top: 10px;
+}
+
+#app-header .tethys-app-header .icon-wrapper img {
+    height: 50px;
+}
+
+#app-header .tethys-app-header .icon-wrapper {
+    margin-left: 15px;
+    padding: 5px 10px;
+}
+
+#app-header .tethys-app-header .app-title-wrapper .app-title {
     padding: 0;
+    padding-left: 65px;
+}
+
+#app-header .tethys-app-header .exit-button {
+    margin-top: 10px;
+}
+
+#app-header .tethys-app-header .exit-button a {
+    padding: 5px 10px;
+}
+
+#app-content-wrapper #app-content #app-actions{
+    height: 50px;
+    padding-top: 5px;
+}
+
+#app-content-wrapper #app-content #app-navigation {
+    padding-top: 60px;
+}
+
+/* app styles */
+
+#app-content-wrapper #app-content{
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#inner-app-content{
+    padding: 0;
+}
+
+.description, #disclaimer {
+    padding: .75em;
+}
+
+.description p {
+    font-size: 18px;
+    color: #000000;
 }
 
 #map {
@@ -10,13 +65,14 @@
 }
 
 #feature-info-content {
-    max-height: 600px;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
 #feature-info-content img {
     width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 /* Popup container */
