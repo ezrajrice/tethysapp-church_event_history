@@ -8,7 +8,7 @@
     <name>points</name>
     <Snippet></Snippet>
     <Placemark id="ID_00000">
-      <name>Joseph Smith Birthplace Memorial</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
       <ExtendedData>
@@ -29,9 +29,20 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00001">
-      <name>Smith Family Farm - Palmyra, New York</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Smith Family Farm - Palmyra, New York</name>
+        </Data>
+        <Data name="info">
+            <value>In 1816, after facing repeated crop failures, Joseph Smith Sr. moved his family from Norwich, Vermont, to Palmyra, New York, hoping to find a more prosperous situation. “Being in indigent circumstances,” recalled the Prophet in later years, “[we] were obliged to labor hard for the support of a large family … , and as it required the exertions of all that were able to render any assistance for the support of the family, therefore we were deprived of the benefit of an education. Suffice it to say, I was merely instructed in reading, writing, and the ground rules of arithmetic.”</value>
+        </Data>
+        <Data name="link">
+            <value></value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -39,9 +50,20 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00002">
-      <name>The Sacred Grove</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>The Sacred Grove</name>
+        </Data>
+        <Data name="info">
+            <value>"So, in accordance with this, my determination to ask of God, I retired to the woods to make the attempt. It was on the morning of a beautiful, clear day, early in the spring of eighteen hundred and twenty. It was the first time in my life that I had made such an attempt, for amidst all my anxieties I had never as yet made the attempt to pray vocally." Joseph Smith-History Chapter 1 Verse 14</value>
+        </Data>
+        <Data name="link">
+            <value>https://www.lds.org/scriptures/pgp/js-h/1?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -49,9 +71,22 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00003">
-      <name>Hill Cumorah</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Hill Cumorah</name>
+        </Data>
+        <Data name="info">
+            <value>The golden plates containing the Book of Mormon were buried in the Hill Cumorah, about three miles southeast of the Smith family farm. In the early hours of September 22, 1823, the angel Moroni showed Joseph Smith in vision exactly where the ancient record was hidden. Later that day, Joseph went to the place shown him by the angel.
+
+"On the west side of this hill, not far from the top, under a stone of considerable size, lay the plates, deposited in a stone box,"1 wrote Joseph. He was not permitted to remove the plates on his first visit, but was instructed by the angel to return to this place every year "until the time should come for obtaining the plates."2 Exactly four years later, the angel delivered the plates to the Prophet Joseph for the purpose of translation and publication. </value>
+        </Data>
+        <Data name="link">
+            <value>https://history.lds.org/article/historic-sites-new-york-hill-cumorah?lang=eng </value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -59,9 +94,20 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00004">
-      <name>Harmony, Pennsylvania</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Harmony, Pennsylvania</name>
+        </Data>
+        <Data name="info">
+            <value>Joseph and Emma Smith moved to Harmony in December 1827 to escape persecution for their religious beliefs. They lived with Emma’s parents, Isaac and Elizabeth Hale, until they purchased a nearby home with 13½ acres from Emma’s brother Jesse.</value>
+        </Data>
+        <Data name="link">
+            <value>https://www.lds.org/church/events/priesthood-restoration-site-dedication?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -69,9 +115,22 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00005">
-      <name>Palmyra—Book of Mormon Publication Site: Grandin Building</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Palmyra—Book of Mormon Publication Site: Grandin Building</name>
+        </Data>
+        <Data name="info">
+            <value>The Book of Mormon was first printed and sold in the Grandin Building located in downtown Palmyra, New York. After translating the golden plates, Joseph Smith "agreed with Mr. Egbert B. Grandin to print five thousand copies"1 of the Book of Mormon. Publication of the book was financed by Martin Harris, a family friend who mortgaged part of his farm to guarantee the $3,000 printing cost.
+
+In mid-August 1829, the Prophet Joseph, with Martin Harris, Oliver Cowdery, Hyrum Smith, Joseph Smith Sr., and several others gathered around Grandin's press to print and inspect a proof sheet. Joseph declared the work was "excellent," and printing of the book began. The Book of Mormon was first offered for sale in Grandin's bookstore on March 26, 1830, as another witness of the divinity and mission of Jesus Christ.</value>
+        </Data>
+        <Data name="link">
+            <value>https://history.lds.org/article/historic-sites-new-york-book-of-mormon-publication-site-palmyra?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -79,9 +138,22 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00006">
-      <name>Peter Whitmer Farm (Foundation of the Church)</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Peter Whitmer Farm (Foundation of the Church)</name>
+        </Data>
+        <Data name="info">
+            <value>The Church of Jesus Christ of Latter-day Saints was organized in the Peter Whitmer home at Fayette, New York, on April 6, 1830, at the Lord's command. Joseph Smith had come to stay at the Whitmer home in June 1829 to escape persecution in Pennsylvania. Within a month of his arrival, the Prophet completed the Book of Mormon translation, the angel Moroni showed the golden plates to the Three Witnesses, and the Lord revealed procedures for establishing His Church.
+
+On April 6, about 60 friends and family members crowded into the 20-by-30-foot home to witness the organization of what was then called the Church of Christ. Joseph Smith and Oliver Cowdery were sustained as the first and second elders in the Church. On that occasion, they offered prayers, blessed and passed the sacrament, and received divine revelation. Following the service, several in attendance were baptized, including the Prophet's parents.</value>
+        </Data>
+        <Data name="link">
+            <value>https://history.lds.org/article/historic-sites-new-york-peter-whitmer-farm-fayette?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -89,9 +161,24 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00007">
-      <name>Newel K. Whitney Store</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Newel K. Whitney Store</name>
+        </Data>
+        <Data name="info">
+            <value>In the fall of 1832, Joseph Smith moved from Hiram, Ohio, back to Kirtland. Bishop Newel K. Whitney prepared an apartment for the Prophet's family in his store, and Joseph lived here until the winter of the following year. The Whitney Store served as headquarters for the Church during that time.
+
+Many revelations now included in the Doctrine and Covenants were received by the Prophet in this place, including the Word of Wisdom, the oath and covenant of the priesthood, and the command to build a temple in Kirtland. Joseph also completed much of his inspired translation of the Bible here.
+
+During the winter of 1832–33, the School of the Prophets was held in an upper room of the store. The school was organized to teach gospel doctrine and principles and to prepare members for ministry in the Church. 1 On one sacred occasion, members of the school beheld a vision of God the Father and the Son.</value>
+        </Data>
+        <Data name="link">
+            <value>https://history.lds.org/article/historic-sites-ohio-newel-k-whitney-store-kirtland?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -99,9 +186,26 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00008">
-      <name>Independence, Missouri</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Independence, Missouri</name>
+        </Data>
+        <Data name="info">
+            <value>The tenth Article of Faith of the Church states, "We believe in the literal gathering of Israel and in the restoration of the Ten Tribes; that Zion [the New Jerusalem] will be built upon the American continent." From the Book of Mormon (Ether 13:1-5), early Latter-day Saints realized they had a role in the fulfillment of prophecy and were looking forward to the establishment of the New Jerusalem in America.
+
+Anxious to know exactly where the promised city would be and when it would be built, the Saints were excited when in 1831 a series of revelations identified Missouri as the general location of the city of Zion, that "Independence is the center place, and a spot for the temple is lying westward, upon a lot which is not far from the courthouse" (D&C 57:1-3;45:64-66;48:4-6;52:1-5, 42-43). Subsequently, Joseph Smith also indicated that the Jackson County area had been the location of the Garden of Eden.
+
+Independence, Missouri, county seat of Jackson County, was the preparation and departure point in the 1830s and 1840s for trappers, explorers, and pioneers who were going to western America over the Santa Fe, Oregon, and California trails. The Latter-day Saints, however, anticipating permanent residence, purchased land, built homes, prepared their farms, and dedicated a temple site.
+
+After one year of living peacefully in Independence and vicinity, the Saints began to be persecuted by their non-Mormon neighbors. Social, religious, and political differences finally developed into open hostilities, and the Latter-day Saints were driven into neighboring Clay County in 1833, where they petitioned for a peaceful settlement so that they could return to their homes. A settlement never came, but Latter-day Saints still look forward to a time when the city of Zion, the New Jerusalem, will be built in the area of Independence, Missouri.</value>
+        </Data>
+        <Data name="link">
+            <value>http://eom.byu.edu/index.php/Independence,_Missouri</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -109,9 +213,22 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00009">
-      <name>Kirtland Temple</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Kirtland Temple</name>
+        </Data>
+        <Data name="info">
+            <value>God commanded Joseph Smith in December 1832 to build a temple in Kirtland, Ohio. The Prophet and several others saw the Kirtland Temple in a vision, which provided its design. Construction began in June 1833, at a time of great poverty in the Church. Work slowed in 1834 because many brethren were absent with Zion's Camp. When they returned, Joseph Smith labored with others in the sandstone quarry, and vigorous efforts to build the temple resumed. Church members made enormous sacrifices to complete this "House of the Lord."
+
+The Prophet Joseph dedicated the Kirtland Temple on March 27, 1836, repeating the ceremony several days later. Beginning in January and continuing past the dedication, many Church members witnessed heavenly manifestations during this glorious season, culminating in Jesus Christ's appearance to Joseph Smith and Oliver Cowdery to accept the temple. Moses, Elias, and Elijah also appeared to Joseph and Oliver to restore priesthood keys for the salvation of all mankind.</value>
+        </Data>
+        <Data name="link">
+            <value>https://history.lds.org/article/historic-sites-ohio-kirtland-temple-kirtland?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -119,9 +236,24 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00010">
-      <name>Far West, Missouri</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Far West, Missouri</name>
+        </Data>
+        <Data name="info">
+            <value>By 1838, many Saints left Ohio to join with those driven from their homes in Missouri. They gathered in the wilderness area of Caldwell County in northwest Missouri and built the city of Far West as a temporary place of refuge. Joseph Smith and his family arrived in March 1838. The following month, God revealed to the Prophet that Far West was located on holy ground, and the Saints were commanded to build a temple here. Cornerstones for the temple were laid during a celebration in early July.
+
+As persecutions raged, Joseph continued to receive direction from the Lord. Here, God revealed that His Church was to be called The Church of Jesus Christ of Latter-day Saints. He directed the Saints to "pay one-tenth of all their interest annually" to financially sustain the Church. And from Far West, the Lord sent the Twelve Apostles on an important mission to England.
+
+The Prophet and other Church leaders were captured by a mob in the fall of 1838. Most were soon released, but Joseph and five others were moved to Liberty Jail. By the following spring, the Saints had fled Far West to safe havens in Illinois and Iowa. </value>
+        </Data>
+        <Data name="link">
+            <value>https://history.lds.org/article/historic-sites-missouri-far-west-caldwell-county?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -129,9 +261,24 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00011">
-      <name>Liberty Jail</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Liberty Jail</name>
+        </Data>
+        <Data name="info">
+            <value>Joseph Smith was unjustly confined in Liberty Jail from December 1838 to April 1839 along with several other Church leaders. Joseph suffered helplessly, knowing that the Latter-day Saints were being driven from Missouri under an "extermination order" from the governor. The Prophet and his companions were imprisoned in a rough stone dungeon measuring 14 by 14 feet, with a ceiling just over 6 feet high. Only two small barred windows allowed light and air into the cell. The six prisoners suffered from winter weather, filthy conditions, hunger, and sickness.
+
+While in Liberty Jail, the Prophet wrote letters to his family and the Saints. His correspondence contains some of the most poignant revelation found in scripture. In this miserable jail, Joseph learned that his sufferings were still not comparable to those of the Savior, as the Spirit whispered to him: "The Son of Man hath descended below them all. Art thou greater than he?" He was taught that in the end "all these things shall give thee experience, and shall be for thy good."
+
+In early April 1839, Joseph and the other prisoners were allowed to escape, and they fled to safety in Illinois.</value>
+        </Data>
+        <Data name="link">
+            <value>https://history.lds.org/article/historic-sites-missouri-liberty-jail-liberty?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -139,9 +286,20 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00012">
-      <name>Nauvoo, Illinois</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Nauvoo, Illinois</name>
+        </Data>
+        <Data name="info">
+            <value>As the Latter-day Saints fled Missouri during the winter of 1838–1839, having been threatened by the governor of that state with extermination, they crossed into Illinois and settled in a swampy area along the Mississippi River that they named Nauvoo. Over the next few years, an estimated 16,000 Latter-day Saints took up residence in the city and its surrounding communities. It became one of the largest cities in Illinois at the time and an important commercial center on the upper Mississippi.</value>
+        </Data>
+        <Data name="link">
+            <value>https://history.lds.org/place/pioneer-story-nauvoo-city-beautiful?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -149,9 +307,24 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00013">
-      <name>Nauvoo Temple</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Nauvoo Temple</name>
+        </Data>
+        <Data name="info">
+            <value>The Nauvoo Temple was the first in which ordinances such as eternal marriage and baptism for the dead were performed. This temple, which was such an integral part of the Lord's work, was not completed before Joseph Smith died a martyr.
+
+Construction of the Nauvoo Temple began in the spring of 1841 on a hilltop overlooking the Mississippi River. The Saints eagerly labored to receive the blessings promised by the Lord. In the baptismal font, dedicated nine months later, the Saints performed proxy baptisms in behalf of the dead.
+
+Work on the temple continued at great sacrifice after the death of Joseph Smith, and portions of the temple were dedicated as they were completed. Between December 1845 and February 1846, nearly 6,000 Latter-day Saints received their endowments in this house of the Lord before moving west. The temple was dedicated in the spring of 1846.</value>
+        </Data>
+        <Data name="link">
+            <value>https://history.lds.org/article/historic-sites-illinois-nauvoo-temple-nauvoo?lang=eng</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -159,9 +332,24 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00014">
-      <name>Carthage Jail</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Carthage Jail</name>
+        </Data>
+        <Data name="info">
+            <value>At the Carthage Jail on June 27, 1844, a mob murdered the Prophet Joseph Smith and his brother Hyrum, who thus sealed their testimonies of Jesus Christ with their blood.
+
+Several days earlier, the Prophet and others voluntarily went to Carthage, the county seat located about 20 miles southeast of Nauvoo, to answer charges of civil disturbance. Joseph and Hyrum were held in Carthage Jail pending trial and were guaranteed protection from mob violence by the governor of Illinois.
+
+Joseph, Hyrum, John Taylor, and Willard Richards were in the jailer's upstairs bedroom when a mob stormed the jail shortly after five o'clock. The Prophet and his brother were shot and killed, John Taylor was seriously wounded, and Willard Richards escaped unharmed. The mob fled, and the martyrs' bodies were taken back to Nauvoo the next day.</value>
+        </Data>
+        <Data name="link">
+            <value></value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -169,9 +357,24 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00015">
-      <name>Nauvoo House, Nauvoo, Illinois</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Nauvoo House, Nauvoo, Illinois</name>
+        </Data>
+        <Data name="info">
+            <value>Joseph Smith received a revelation on January 19, 1841 instructing the Saints to construct a boarding house named the Nauvoo House to “be a delightful habitation for man, and a resting-place for the weary traveler, that he may contemplate the glory of Zion.”
+
+Shortly thereafter, the Nauvoo House Association was created on February 23, 1841 to help oversee the construction of the building. Less than six months later, the cornerstone of the Nauvoo House was laid and many items were deposited into it including the original manuscript copy of the Book of Mormon. However, construction was halted in 1844 to devote more attention to building the Nauvoo Temple. Construction was attempted again in 1845, but was halted due to persecution of the Saints in Nauvoo.
+
+After the martyrdom of the Prophet Joseph Smith and his brother Hyrum, their bodies were secretly buried in cellar of the uncompleted Nauvoo House to protect the bodies from falling into the hands of the mob. They were later moved to a resting place near the Mansion House.</value>
+        </Data>
+        <Data name="link">
+            <value>http://mormonhistoricsites.org/nauvoo-house/</value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -179,9 +382,24 @@
       </Point>
     </Placemark>
     <Placemark id="ID_00016">
-      <name>Hyrum Smith, Joseph Smith, and Emma Smith Burial Site</name>
+      <name></name>
       <Snippet></Snippet>
       <description></description>
+      <ExtendedData>
+        <Data name="site">
+            <value>Hyrum Smith, Joseph Smith, and Emma Smith Burial Site</name>
+        </Data>
+        <Data name="info">
+            <value>Joseph and Hyrum Smith's bodies were returned to Nauvoo the next day. The bodies were cleaned and examined, and death masks were made, preserving their facial features and structures.
+
+A public viewing was held on June 29, 1844, after which empty coffins weighted with sandbags were used at the public burial. (This was done to prevent theft or mutilation of the bodies.) The coffins bearing the bodies of the Smith brothers were initially buried under the unfinished Nauvoo House, then disinterred and deeply reburied under an out-building on the Smith homestead.
+
+In 1928, Frederick M. Smith, president of the Reorganized Church of Jesus Christ of Latter Day Saints (RLDS Church) and grandson of Joseph Smith, feared that rising water from the Mississippi River would destroy the grave site. He authorized civil engineer William O. Hands to conduct an excavation to find the Smiths' bodies. Hands conducted extensive digging on the Smith homestead, and located the bodies, as well as finding the remains of Joseph's wife, Emma, who was buried in the same place. The remains—which were badly decomposed—were examined and photographed, and the bodies were reinterred close by in Nauvoo.</value>
+        </Data>
+        <Data name="link">
+            <value></value>
+        </Data>
+      </ExtendedData>
       <styleUrl>#IconStyle00</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
