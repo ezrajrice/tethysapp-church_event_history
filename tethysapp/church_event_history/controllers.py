@@ -34,7 +34,7 @@ def map(request):
                      ('Nauvoo House, Nauvoo, Illinois', 'ID_00015'),
                      ('Smith Burial Site', 'ID_00016')]
 
-    select_input = SelectInput(display_text='Zoom to Event',
+    select_input = SelectInput(display_text='Select Event',
                                name='select_event',
                                multiple=False,
                                options=event_id_list,

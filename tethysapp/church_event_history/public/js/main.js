@@ -1,5 +1,5 @@
 "use strict";
-//$(document).ready(function() {
+$(document).ready(function() {
     //Declaring the projection object for Web Mercator
     var projection = ol.proj.get('EPSG:3857');
 
@@ -93,6 +93,7 @@
 
         if (feature) {
             show_feature_info(feature);
+            $('#select_event').val(feature.a);
         } else {
             info_content.html('');
             popup_content.removeClass('show');
@@ -111,13 +112,22 @@
 
     $(document).on('change', '#select_event', function(e) {
         var feature_id = this.options[e.target.selectedIndex].value;
-        var point_layer = map.getLayers().a[3];
-        var point_features = point_layer.I.source.j;
-        var feature = point_features[feature_id];
-        map.setView(new ol.View({
-            center: ol.proj.fromLonLat(ol.proj.toLonLat(feature.getGeometry().getCoordinates())),
-            zoom: 16
-        }));
-        show_feature_info(feature);
+        if (feature_id != 'none') {
+            var point_layer = map.getLayers().a[3];
+            var point_features = point_layer.I.source.j;
+            var feature = point_features[feature_id];
+            map.setView(new ol.View({
+                center: ol.proj.fromLonLat(ol.proj.toLonLat(feature.getGeometry().getCoordinates())),
+                zoom: 16
+            }));
+            show_feature_info(feature);
+        } else {
+            info_content.html('');
+            popup_content.removeClass('show');
+            map.setView(new ol.View({
+                center: ol.proj.transform([-80.3502343, 41.829781], 'EPSG:4326', 'EPSG:3857'),
+                zoom: 6
+            }));
+        }
     });
-//});
+});

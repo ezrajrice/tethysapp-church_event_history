@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90c4bdc7-421f-4261-8cd1-75eae8e8b190" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/images/home_pano.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/help.html" />
+    <list default="true" id="90c4bdc7-421f-4261-8cd1-75eae8e8b190" name="Default" comment="Finished and ready for video. Need to add ability to download help files.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/app.py" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/app.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/controllers.py" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/controllers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/public/css/main.css" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/points.kml" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/points.kml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/map.html" afterPath="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/map.html" />
     </list>
     <ignored path="tethysapp-church_event_history.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +40,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+            <state relative-caret-position="432">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -78,8 +70,8 @@
       <file leaf-file-name="controllers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/controllers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+            <state relative-caret-position="540">
+              <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -138,10 +130,10 @@
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/points.kml" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/public/kml/poly.kml" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/app.py" />
-        <option value="$PROJECT_DIR$/tethysapp/church_event_history/controllers.py" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/home.html" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/map.html" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/help.html" />
+        <option value="$PROJECT_DIR$/tethysapp/church_event_history/controllers.py" />
         <option value="$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js" />
       </list>
     </option>
@@ -473,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489554377150</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished and ready for video. Need to add ability to download help files.">
+      <created>1489609492597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489609492597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -482,6 +481,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15993449" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32818532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -489,7 +489,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -518,7 +517,8 @@
     <MESSAGE value="make css changes and use gizmo for drop-down" />
     <MESSAGE value="minor bug fixes" />
     <MESSAGE value="Added all images and edited points.kml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all images and edited points.kml" />
+    <MESSAGE value="Finished and ready for video. Need to add ability to download help files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished and ready for video. Need to add ability to download help files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -898,20 +898,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/controllers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -926,26 +932,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/map.html">
+    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/templates/church_event_history/help.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tethysapp/church_event_history/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+        <state relative-caret-position="432">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding />
         </state>
       </provider>
